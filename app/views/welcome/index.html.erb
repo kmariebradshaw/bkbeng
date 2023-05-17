@@ -57,7 +57,7 @@
 			</div>		
 		</div>
 	</div>
-	<div class="about flex-container aifs border-top padding-tbo">
+	<!-- <div class="about flex-container aifs border-top padding-tbo">
 		<div class="quarter"><p><b>background</b></p></div>
 		<div class="three-fourths">
 			<div class="flex-container aifs padding-bo">
@@ -97,16 +97,37 @@ Illinois Society of Professional Engineers</p>
 				
 			</div>		
 		
+		</div> 
+	</div>-->
+</section>
+<section class="contact-us flex-container padding-tbo">
+	<div class="flex-container aic three-fourths">
+		<div class="">
+					<h2 class="text-blue">Contact Information</h2>
+
+			<p> 			<%= image_tag("email-icon.png", class: "icon") %>
+<b>email</b>: <a href="">bbradshaw@bkbeng.com</a></p></a>
+			<p>	<%= image_tag("office-icon.png", class: "icon") %><b>office</b>: 217-531-2971</p>
+			<p>	<%= image_tag("mobile-icon.png", class: "icon") %><b>cell</b>: 217-840-3546</p>
+			<p>	<%= image_tag("fax-icon.png", class: "icon") %><b>fax</b>: 217-531-2211</p>
 		</div>
 	</div>
+	<div class="fw">
+	<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12204.173184165626!2d-88.2438816!3d40.1190386!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880cd74cfef70f51%3A0x13f9282bbd9b9aac!2sBKB%20Engineering!5e0!3m2!1sen!2sus!4v1680199826594!5m2!1sen!2sus" width="100%" height="450"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+	</div>
 </section>
-
 </main>
 <style>
+	iframe { border: none; }
+	.contact-us { border-top: 1px solid black; border-bottom: 1px solid black; }
 	.flex-container { display: flex; }
 	.aifs { align-items: flex-start; }
+	.aic { align-items: center; }
 	.quarter { width: 25%;  }
 	.three-fourths { width: 75%;  }
+	.one-third { width: 33%; }
+	.fw { width: 100%; }
+	.two-thirds { width: 66%; }
 	main { padding: 4rem; max-width: 1000px; margin: 0 auto; }
 	.hero {  padding: 50px 0; }
 	.border-top { border-top: 1px solid black; }
@@ -118,9 +139,10 @@ Illinois Society of Professional Engineers</p>
     opacity: .08;
     left: 0;
 }
+.icon { width: 30px; vertical-align: middle; margin-right: 10px; }
 .padding-to { padding-top: 20px; }
 .padding-tbo {padding: 20px 0}
 .padding-bo {padding-bottom: 20px;}
 .hero h1 { font-size: 24pt }
-.logo { width: 200px }
+.logo { width: 300px }
 </style>
